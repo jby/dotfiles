@@ -10,19 +10,19 @@ alias ylv='yadr vim-list-plugin'
 alias yup='yadr update-plugins'
 alias yip='yadr init-plugins'
 
-# PS
-alias psa="ps aux"
-alias psg="ps aux | grep "
-alias psr='ps aux | grep ruby'
+# # PS
+# alias psa="ps aux"
+# alias psg="ps aux | grep "
+# alias psr='ps aux | grep ruby'
 
 # Moving around
 alias cdb='cd -'
 
 # Show human friendly numbers and colors
 alias df='df -h'
-alias ll='ls -alGh'
-alias ls='ls -Gh'
-alias du='du -h -d 2'
+# alias ll='ls -alGh'
+# alias ls='ls -Gh'
+# alias du='du -h -d 2'
 
 # show me files matching "ls grep"
 alias lsg='ll | grep'
@@ -30,13 +30,6 @@ alias lsg='ll | grep'
 # Alias Editing
 alias ae='vim $yadr/zsh/aliases.zsh' #alias edit
 alias ar='source $yadr/zsh/aliases.zsh'  #alias reload
-
-# vim using
-mvim --version > /dev/null 2>&1
-MACVIM_INSTALLED=$?
-if [ $MACVIM_INSTALLED -eq 0 ]; then
-  alias vim="mvim -v"
-fi
 
 # vimrc editing
 alias ve='vim ~/.vimrc'
