@@ -3,6 +3,7 @@
 set nocompatible
 
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 let g:session_autosave = 'no'
 
 " TODO: this may not be in the correct place. It is intended to allow overriding <Leader>.
