@@ -1,0 +1,3 @@
+Bundle "elzr/vim-json.git"
+Bundle "vim-scripts/UpdateDNSSerial.git"
+Bundle "ekalinin/Dockerfile.vim.git"
