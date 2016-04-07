@@ -30,6 +30,3 @@ set -o emacs
 
 eval $(gdircolors ~/.dir_colors/dircolors.256dark)
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
-
-#eval "$(tmuxifier init -)"
-unset -f getent
