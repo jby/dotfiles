@@ -21,6 +21,8 @@ function chpwd() {
     ls
 }
 
+autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+
 function psg() {
     emulate -L zsh
     ps -ef | grep -v grep | egrep -i "$*"
