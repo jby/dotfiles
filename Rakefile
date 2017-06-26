@@ -277,7 +277,7 @@ def install_prezto
   run %{ ln -nfs "$HOME/.yadr/zsh/zsh.after/jby.zsh" "${ZDOTDIR:-$HOME}/.zsh.after/" }
   run %{ ln -nfs "$HOME/.yadr/zsh/zsh.after/prompt.zsh" "${ZDOTDIR:-$HOME}/.zsh.after/" }
 
-  if ENV["SHELL"].include? 'zsh' then
+  if "#{ENV['SHELL']}".include? 'zsh' then
     puts "Zsh is already configured as your shell of choice. Restart your session to load the new settings"
   else
     puts "Setting zsh as your default shell"
