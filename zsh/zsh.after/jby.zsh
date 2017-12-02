@@ -32,3 +32,5 @@ set -o emacs
 
 eval $(gdircolors ~/.dir_colors/dircolors.256dark)
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
+# Only load Liquid Prompt in interactive shells, not from a script or from scp
+[[ $- = *i* ]] && source ~/src/div/liquidprompt/liquidprompt
