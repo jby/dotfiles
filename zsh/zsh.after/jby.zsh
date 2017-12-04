@@ -35,3 +35,4 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 # Only load Liquid Prompt in interactive shells, not from a script or from scp
 [[ $- = *i* ]] && source ~/src/div/liquidprompt/liquidprompt
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+. ~/.iterm2_shell_integration.zsh
