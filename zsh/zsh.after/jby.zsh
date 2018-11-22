@@ -36,4 +36,4 @@ zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 [[ $- = *i* ]] && source ~/src/div/liquidprompt/liquidprompt
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 . ~/.iterm2_shell_integration.zsh
-/usr/local/bin/archey -c
+/usr/local/bin/archey --offline
